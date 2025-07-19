@@ -16,10 +16,6 @@
 
 ---
 
-## 🚀 Demo Preview
-
-![App Preview](https://owais41111.github.io/Insta-Video-Downloader/)
-
 ---
 
 ## 🛠️ Technologies Used
