@@ -1,0 +1,146 @@
+/* General */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fdf4ff;
+    color: #333;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+    color: white;
+    padding: 80px 20px 60px;
+    position: relative;
+}
+
+.hero .subtitle {
+    font-size: 20px;
+    margin: 12px 0 10px;
+    opacity: 0.95;
+}
+
+.hero .disclaimer {
+    font-size: 14px;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* Card Box */
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 32px 24px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    margin-top: -50px;
+}
+
+.card h2 {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+input[type="url"] {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(to right, #a445b2, #ff0066, #ff9900);
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Features Section */
+.features {
+    margin-top: 48px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.feature-card {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    text-align: center;
+}
+
+.feature-icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 12px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #a445b2, #ff0066, #ff9900);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+}
+
+.feature-card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.feature-card small {
+    font-size: 13px;
+    color: #777;
+}
